@@ -14,7 +14,6 @@ export const Dashboard = () =>{
         <button onClick={() => counterRef.current++}>Somar</button>
         <button onClick={() => console.log(counterRef.current)}>Log</button>
 
-
         <Link to = "/entrar"> Login </Link>
         </div>
     );
